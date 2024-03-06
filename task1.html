@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zade Footwear</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #a694d6;
+            color: #333;
+        }
+
+        header {
+            background-color: #34495e;
+            padding: 1em;
+            text-align: center;
+            color: white;
+            font-size: 2em;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(238, 240, 243);
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #74dda7;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgb(173, 245, 200);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .footwear-item {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .footwear-item:hover {
+            transform: scale(1.05);
+        }
+
+        .footwear-item img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #34495e;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h2 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: cadetblue;
+            text-align: center;
+        }
+
+        h3 {
+            font-family: cursive;
+            color: darkblue;
+            text-decoration: solid;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: khaki;
+            cursor: pointer;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            color: #3498db;
+            background-color: white;
+            transition: background-color 0.3s, color 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Zade Footwear</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="men.html">Men's Shoes</a>
+        <a href="womens.html">Women's Shoes</a>
+        <a href="sneakers.html">Sneakers</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <h2>Discover Our Latest Footwear Collection</h2>
+        <div class="footwear-item">
+            <img src="menshoes.jpg" alt="Men's Running Shoes">
+            <h3>Men's Running Shoes</h3>
+            <p>Experience comfort and style with our latest collection of men's running shoes.</p>
+            <a href="men.html" class="button">Shop Now</a>
+           
+        </div>
+        <div class="footwear-item">
+            <img src="womens.jpg" alt="Women's Sandals">
+            <h3>Women's Sandals</h3>
+            <p>Elevate your style with our elegant and comfortable sandals for women.</p>
+            <a href="womens.html" class="button" >Shop Now</a>
+        </div>
+        <div class="footwear-item">
+            <img src="sneakers.jpg" alt="sneakers">
+            <h3>Sneakers</h3>
+            <p>Elevate your style with our elegant and comfortable sandals for women.</p>
+            <a href="sneakers.html" class="button">Shop Now</a>
+        </div>
+
+    </section>
+    <footer>
+        &copy; 2024 Zade Footwear
+        <p>CONTACT - 8374876000
+            <br>MAIL - zfootwear12@gmail.com
+        </p>
+    </footer>
+</body>
+
+</html>
